@@ -1,0 +1,295 @@
+/* Text */
+
+/* Sizes */
+.text-sm{
+    font-size: 1rem;
+}
+.text-md{
+    font-size: 1.5rem;
+}
+.text-lg{
+    font-size: 3rem;
+}
+.text-xl{
+    font-size: 4rem;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+.text-italic{
+    font-style: italic;
+}
+
+/* Colors */
+
+.text-white{
+    color: #fff;
+}
+
+.text-blue{
+    color: blue;
+}
+.text-red{
+    color: red;
+}
+.text-green{
+    color: green;
+}
+.text-black{
+    color: #000;
+}
+.text-yellow{
+    color: orange;
+}
+
+/* Alignment */
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* Transormation */
+.text-upper{
+    text-transform: uppercase;
+}
+.text-lower{
+    text-transform: lowercase;
+}
+.text-capital{
+    text-transform: capitalize;
+}
+
+
+/* Padding */
+.p-1{
+    padding: 1rem;
+}
+
+.p-2{
+    padding: 1.7rem;
+}
+
+.p-3{
+    padding: 2.5rem;
+}
+/* Y-axis */
+
+.py-1{
+    padding: 1rem 0;
+}
+
+.py-2{
+    padding: 2.5rem 0;
+}
+
+.py-3{
+    padding: 3rem 0;
+}
+/* x Axis */
+.px-1{
+    padding: 0 1rem;
+}
+
+.px-2{
+    padding: 0 2.5rem;
+}
+
+.px-3{
+    padding: 0 3rem;
+}
+
+/* Margin */
+.m-1{
+    margin: 1rem;
+}
+
+.m-2{
+    margin: 1.7rem;
+}
+
+.m-3{
+    margin: 2.5rem;
+}
+
+/* Y-axis */
+
+.my-1{
+    margin: 1rem 0;
+}
+
+.my-2{
+    margin: 2.5rem 0;
+}
+
+.my-3{
+    margin: 3rem 0;
+}
+
+/* x Axis */
+
+.mx-1{
+    margin: 0 1rem;
+}
+
+.mx-2{
+    margin: 0 2.5rem;
+}
+
+.mx-3{
+    margin: 0 3rem;
+}
+
+/* Background */
+.bg-white{
+    background-color: #fff;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+.bg-red{
+    background-color: red;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-black{
+    background-color: #000;
+}
+.bg-yellow{
+    background-color: orange;
+}
+.bg-dark{
+    background-color: #333;
+}
+
+/* Floating */
+
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.float-center{
+    float: center;
+}
+.float-none{
+    float: none;
+}
+
+
+/* Images */
+
+.img-primary{
+    width: 100%;
+    height: auto;
+}
+
+.img-thumbnail{
+    height: 200px;
+    width: 200px;
+}
+
+.img-circle{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+/* Border */
+.border-solid-white{
+    border: 1px solid white;
+}
+.border-solid-black{
+    border: 1px solid black;
+}
+.border-solid-red{
+    border: 1px solid red;
+}
+.border-solid-dark{
+    border: 1px solid #333;
+}
+
+.btn{
+    display: block;
+    margin: 10px;
+    padding: 0.7rem 2rem;
+    text-decoration: none;
+    border: 1px solid #000;
+    text-align: center;
+    color: #000;
+    border-radius: 5px;
+    transition: all 0.8s;
+}
+
+.btn:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.btn-dark{
+    background-color: #333;
+    border: none;
+    color: #fff;
+}
+.btn-red{
+    background-color: red;
+    border: none;
+    color: #fff;
+}
+.btn-blue{
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+}
+.btn-orange{
+    background-color: orange;
+    border: none;
+    color: #fff;
+}
+.btn-green{
+    background-color: green;
+    border: none;
+    color: #fff;
+}
+
+.btn-md{
+    padding: 1rem 4rem;
+    font-size: 1.2rem;
+}
+
+.btn-lg{
+    padding: 1.5rem 7rem;
+    font-size: 1.5rem;
+}
+
+.btn-full{
+    width: 98%;
+    margin: 0.5rem;
+}
+
+.card{
+    width: 18rem;
+    border: 1px solid #D3D3D3;
+    display: grid;
+    border-radius: 3px;
+}
+.card .card-img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card .card-content > h3, p{
+    padding-left: 0.8rem;
+}
