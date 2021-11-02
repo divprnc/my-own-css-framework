@@ -1,0 +1,42 @@
+:root{
+    --blue-color:#007bff;
+    --red-color:#dc3545;
+    --green-color:#28a745;
+    --dark-color:#343a40;
+    --yellow-color:#ffc107;
+    --info-color:#17a2b8;
+    --grey-color:#6c757d;
+    --white-color:#ffffff;
+    --black-color:#000000;
+    --border-color:#D3D3D3;
+
+    --md-btn-padding: 1rem 4rem;
+    --md-btn-font: 1.2rem;
+    --lg-btn-padding: 1.5rem 7rem;
+    --lg-btn-font: 1.5rem;
+}
+
+.bg-blue{
+    background-color: var(--blue-color);
+    color: var(--white-color);
+}
+.bg-red{
+    background-color: var(--red-color);
+    color: var(--white-color);
+}
+.bg-green{
+    background-color: var(--green-color);
+    color: var(--white-color);
+}
+.bg-dark{
+    background-color: var(--dark-color);
+    color: var(--white-color);
+}
+.bg-yellow{
+    background-color: var(--yellow-color);
+    color: var(--black-color);
+}
+.bg-info{
+    background-color: var(--info-color);
+    color: var(--white-color);
+}

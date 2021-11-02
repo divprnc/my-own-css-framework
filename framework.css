@@ -1,3 +1,22 @@
+:root{
+    --blue-color:#007bff;
+    --red-color:#dc3545;
+    --green-color:#28a745;
+    --dark-color:#343a40;
+    --yellow-color:#ffc107;
+    --info-color:#17a2b8;
+    --grey-color:#6c757d;
+    --white-color:#ffffff;
+    --black-color:#000000;
+    --border-color:#D3D3D3;
+
+    --md-btn-padding: 1rem 4rem;
+    --md-btn-font: 1.2rem;
+    --lg-btn-padding: 1.5rem 7rem;
+    --lg-btn-font: 1.5rem;
+}
+
+
 /* Text */
 
 /* Sizes */
@@ -24,23 +43,23 @@
 /* Colors */
 
 .text-white{
-    color: #fff;
+    color: var(--white-color);
 }
 
 .text-blue{
-    color: blue;
+    color: var(--blue-color);
 }
 .text-red{
-    color: red;
+    color: var(--red-color);
 }
 .text-green{
-    color: green;
+    color: var(--green-color);
 }
 .text-black{
-    color: #000;
+    color: var(--black-color);
 }
 .text-yellow{
-    color: orange;
+    color: var(--yellow-color);
 }
 
 /* Alignment */
@@ -150,23 +169,23 @@
 
 /* Background */
 .bg-white{
-    background-color: #fff;
+    background-color: var(--white-color);;
 }
 
 .bg-blue{
-    background-color: blue;
+    background-color: var(--blue-color);;
 }
 .bg-red{
-    background-color: red;
+    background-color: var(--red-color);;
 }
 .bg-green{
-    background-color: green;
+    background-color: var(--green-color);;
 }
 .bg-black{
-    background-color: #000;
+    background-color: var(--black-color);
 }
 .bg-yellow{
-    background-color: orange;
+    background-color:var(--yellow-color);;
 }
 .bg-dark{
     background-color: #333;
@@ -208,26 +227,26 @@
 
 /* Border */
 .border-solid-white{
-    border: 1px solid white;
+    border: 1px solid var(--white-color);;
 }
 .border-solid-black{
-    border: 1px solid black;
+    border: 1px solid var(--black-color);;
 }
 .border-solid-red{
-    border: 1px solid red;
+    border: 1px solid var(--red-color);;
 }
 .border-solid-dark{
     border: 1px solid #333;
 }
 
 .btn{
-    display: block;
+    display: inline-block;
     margin: 10px;
     padding: 0.7rem 2rem;
     text-decoration: none;
-    border: 1px solid #000;
+    border: 1px solid var(--black-color);
     text-align: center;
-    color: #000;
+    color: var(--black-color);
     border-radius: 5px;
     transition: all 0.8s;
 }
@@ -240,27 +259,27 @@
 .btn-dark{
     background-color: #333;
     border: none;
-    color: #fff;
+    color: var(--white-color);
 }
 .btn-red{
-    background-color: red;
+    background-color: var(--red-color);
     border: none;
-    color: #fff;
+    color: var(--white-color);
 }
 .btn-blue{
-    background-color: #007bff;
+    background-color: var(--blue-color);
     border: none;
-    color: #fff;
+    color: var(--white-color);
 }
 .btn-orange{
     background-color: orange;
     border: none;
-    color: #fff;
+    color: var(--white-color);
 }
 .btn-green{
-    background-color: green;
+    background-color: var(--green-color);
     border: none;
-    color: #fff;
+    color: var(--white-color);
 }
 
 .btn-md{
@@ -280,7 +299,7 @@
 
 .card{
     width: 18rem;
-    border: 1px solid #D3D3D3;
+    border: 1px solid var(--border-color);
     display: grid;
     border-radius: 3px;
 }
